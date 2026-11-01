@@ -1,0 +1,40 @@
+{
+  "telegram_bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "telegram_chat_id": "YOUR_TELEGRAM_CHAT_ID",
+  "search_criteria": {
+    "search_term": "Associate Product Manager",
+    "location": "Bengaluru, India",
+    "results_wanted": 20,
+    "hours_old": 48,
+    "min_match_threshold": 0.75,
+    "country_indeed": "India",
+    "include_visa_restricted": false,
+    "include_remote_variants": true,
+    "enabled_sites": ["linkedin", "indeed", "naukri"],
+    "include_remote_variants": true,
+    "include_visa_restricted": false
+  },
+  "discovery": {
+    "use_jobspy_boards": true,
+    "use_google_playwright": true,
+    "enrich_missing_descriptions": true,
+    "enrich_max_per_run": 15,
+    "playwright_headless": true
+  },
+  "candidate_profile": {
+    "full_name": "Your Name",
+    "years_experience": 0,
+    "months_experience": 6,
+    "target_roles": [
+      "Associate Product Manager",
+      "Product Analyst"
+    ],
+    "primary_skills": [
+      "Product Management",
+      "Python",
+      "SQL",
+      "Analytics"
+    ],
+    "work_experience_summary": "Brief summary of your experience for semantic matching."
+  }
+}

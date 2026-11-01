@@ -1,0 +1,11 @@
+services:
+  agent:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data          # agent_state.db, checkpoints.db, resumes/
+      - ./secrets:/app/secrets    # gmail token + client secret
+      - ./resume:/app/resume      # master_resume.json
+      - ./config.json:/app/config.json
+      - ./jobs_database.db:/app/jobs_database.db

@@ -1,0 +1,15 @@
+langgraph>=1.0
+langgraph-checkpoint-sqlite>=3.0
+aiosqlite
+langchain>=1.0
+langchain-anthropic
+langchain-mcp-adapters>=0.3
+mcp>=1.20
+pydantic>=2
+python-docx
+apscheduler>=3.10,<4
+google-api-python-client
+google-auth-oauthlib
+python-dotenv
+pytest
+pytest-asyncio

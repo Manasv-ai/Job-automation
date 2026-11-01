@@ -1,0 +1,25 @@
+{
+  "name": "Your Name",
+  "email": "you@example.com",
+  "phone": "+91-90000-00000",
+  "location": "Bengaluru, India",
+  "links": ["linkedin.com/in/your-handle"],
+  "summary": "Associate product manager with 6 months of experience in analytics-driven product work.",
+  "skills": ["Product Management", "Python", "SQL", "Analytics", "A/B Testing", "Roadmapping"],
+  "experience": [
+    {
+      "id": "exp1", "company": "Acme Corp", "title": "Product Analyst Intern",
+      "start": "Jan 2026", "end": "Jun 2026", "location": "Bengaluru",
+      "bullets": [
+        {"id": "exp1.b1", "text": "Analysed funnel data in SQL to find a checkout drop-off, informing a fix that lifted conversion by 4%."},
+        {"id": "exp1.b2", "text": "Built a Python dashboard tracking weekly active users for a team of 12."},
+        {"id": "exp1.b3", "text": "Ran 3 A/B tests with engineering and summarised results for stakeholders."}
+      ]
+    }
+  ],
+  "projects": [
+    {"id": "proj1", "name": "Job Search Automation",
+     "bullets": [{"id": "proj1.b1", "text": "Built a Python tool that scores job listings against a candidate profile using embeddings."}]}
+  ],
+  "education": [{"school": "Your University", "degree": "B.Tech, Computer Science", "years": "2022-2026"}]
+}

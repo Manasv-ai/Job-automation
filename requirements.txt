@@ -1,0 +1,9 @@
+python-jobspy
+sentence-transformers
+torch
+rapidfuzz
+pandas
+streamlit
+openpyxl
+requests
+playwright

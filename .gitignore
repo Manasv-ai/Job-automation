@@ -1,0 +1,43 @@
+# --- Secrets & credentials (NEVER commit) ---
+.env
+.env.*
+!.env.example
+config.json
+secrets/
+*client_secret*.json
+*token*.json
+
+# --- Personal data ---
+resume/master_resume.json
+resume/*.pdf
+resume/*.docx
+data/
+
+# --- Databases (incl. SQLite WAL/SHM side files) ---
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# --- Generated output ---
+evaluated_jobs*.csv
+*.xlsx
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# --- Browser automation ---
+.playwright_google_profile/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
